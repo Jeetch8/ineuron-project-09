@@ -78,7 +78,7 @@ header{
 }
 
 .api{
-  padding: 100px;
+  padding: 150px 100px 100px 100px;
   background-color: #F8F8FA;
 }
 
@@ -144,7 +144,7 @@ header{
   padding: 0px 100px;
   padding-bottom: 100px;
   display: flex;
-  gap: 38%;
+  gap: 34%;
   padding-top: 30px;
   justify-content: center;
   justify-content: space-evenly;
