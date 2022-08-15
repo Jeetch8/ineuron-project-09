@@ -56,9 +56,11 @@ header{
 .header-image{
   position: absolute;
   right: 0;
-  bottom: -14vh;
+  /* bottom: -14vh; */
+  top: 10vh;
   width: 700px;
   height: 530px;
+  margin-left: 100px;
   /* bottom: 0; */
 }
 
@@ -319,4 +321,12 @@ form input{
   display: flex;
   gap: 15%;
   justify-content:flex-end;
+}
+
+
+@media only screen and (max-width:1600px){
+  .header-image{
+    max-width: 700px;
+    max-height: 530px;
+  }
 }
